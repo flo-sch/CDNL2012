@@ -1,0 +1,3 @@
+CDNL2012ProjectsBundle_homepage:
+    pattern:  /
+    defaults: { _controller: CDNL2012ProjectsBundle:Landing:index }

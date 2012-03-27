@@ -1,0 +1,7 @@
+parameters:
+#    cdnl2012_projects.example.class: CDNL2012\ProjectsBundle\Example
+
+services:
+#    cdnl2012_projects.example:
+#        class: %cdnl2012_projects.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
