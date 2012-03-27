@@ -1,3 +1,11 @@
 CDNL2012ProjectsBundle_homepage:
     pattern:  /
     defaults: { _controller: CDNL2012ProjectsBundle:Landing:index }
+
+CDNL2012ProjectsBundle_projects_homepage:
+    pattern: /{categoryName}
+    defaults: { _controller: CDNL2012ProjectsBundle:Projects:index }
+
+CDNL2012ProjectsBundle_projects_detailpage:
+    pattern: /{categoryName}/{projectName}
+    defaults: { _controller: CDNL2012ProjectsBundle:Projects:get }

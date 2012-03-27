@@ -1,1 +1,18 @@
 {% extends('::base.html.twig') %}
+
+{% block nav %}
+    <ul>
+        <li class="menu_item"><a href="{{ path('CDNL2012ProjectsBundle_homepage') }}">CDNL<img src="{{ asset('images/moustache.jpg') }}" /></a></li>
+        <li class="menu_item"><a href="webquest">Webquest</a></li>
+        <li class="menu_item"><a href="iphone">Appli iPhone</a></li>
+        <li class="menu_item"><a href="relook">Relook Site</a></li>
+        <li class="menu_item"><a href="final">Projet de fin d'année</a></li>
+    </ul>
+{% endblock %}
+
+{% block body %}
+    <section id="home_content">
+        <img src="{{ asset('images/logotraits.png') }}" alt="LOGO" />
+        <img src="{{ asset('images/tetes.png') }}" alt="Trombinoscope" />
+    </section>
+{% endblock %}
